@@ -46,6 +46,7 @@ git clone https://github.com/DEVILXAARYAN/AI_Energy_Consumption_Forecasting.git
 cd AI_Energy_Consumption_Forecasting
 
 2️⃣ Create Virtual Environment
+
 python -m venv venv
 venv\Scripts\activate   # On Windows
 # or
@@ -56,3 +57,58 @@ pip install -r requirements.txt
 
 4️⃣ Open the Notebook
 jupyter notebook notebooks/Minor_Project1_AI_Energy_Forecasting_Anomaly.ipynb
+
+
+Run all cells sequentially to generate forecasts and anomaly detection results.
+
+📊 Project Workflow
+
+Data Preprocessing:
+Cleaning, merging date/time columns, and handling missing data.
+
+Exploratory Data Analysis (EDA):
+Visualizing trends, consumption peaks, and correlations.
+
+Forecasting:
+Building predictive models using ARIMA and XGBoost.
+
+Anomaly Detection:
+Identifying outliers and unusual energy patterns.
+
+Visualization & Reporting:
+Plotting results for better interpretability.
+
+🧠 Results
+
+Accurate hourly and daily consumption predictions.
+
+Detected anomalies corresponding to unusual usage spikes.
+
+Model performance evaluated using MAE and RMSE metrics.
+
+🚀 Future Scope (Minor Project 2 & Major)
+
+Implement energy-saving recommendation system.
+
+Deploy as a web dashboard using Streamlit or Flask.
+
+Incorporate real-time data monitoring and alerts.
+
+👥 Team Members
+Name	Role
+Aaryan Singh Panwar	Project Lead / Developer
+[Add Teammate Name]	Data Preprocessing / Analysis
+[Add Teammate Name]	Model Development
+[Add Teammate Name]	Documentation & Testing
+📚 References
+
+UCI Machine Learning Repository — Individual household electric power consumption dataset
+
+Scikit-learn, Statsmodels, and XGBoost official documentation
+
+Research papers on time-series forecasting and anomaly detection
+
+🧾 License
+
+This project is developed as part of the Minor Project I coursework.
+Free to use for academic and learning purposes.
