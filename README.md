@@ -44,3 +44,15 @@ It forms the foundation for an advanced energy optimization and recommendation s
 ```bash
 git clone https://github.com/DEVILXAARYAN/AI_Energy_Consumption_Forecasting.git
 cd AI_Energy_Consumption_Forecasting
+
+2️⃣ Create Virtual Environment
+python -m venv venv
+venv\Scripts\activate   # On Windows
+# or
+source venv/bin/activate   # On macOS/Linux
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Open the Notebook
+jupyter notebook notebooks/Minor_Project1_AI_Energy_Forecasting_Anomaly.ipynb
