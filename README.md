@@ -62,24 +62,28 @@ Bash
 jupyter notebook notebooks/Minor_Project1_AI_Energy_Forecasting_Anomaly.ipynb
 Run all cells sequentially to generate forecasts and anomaly detection results.
 
-📊 Project Workflow
+---
 
-Data Preprocessing:
+## 📊 Project Workflow
+
+### Data Preprocessing:
 Cleaning, merging date/time columns, and handling missing data.
 
-Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 Visualizing trends, consumption peaks, and correlations.
 
-Forecasting:
+### Forecasting:
 Building predictive models using ARIMA and XGBoost.
 
-Anomaly Detection:
+### Anomaly Detection:
 Identifying outliers and unusual energy patterns.
 
-Visualization & Reporting:
+### Visualization & Reporting:
 Plotting results for better interpretability.
 
-🧠 Results
+---
+
+## 🧠 Results
 
 Accurate hourly and daily consumption predictions.
 
@@ -87,7 +91,9 @@ Detected anomalies corresponding to unusual usage spikes.
 
 Model performance evaluated using MAE and RMSE metrics.
 
-🚀 Future Scope (Minor Project 2 & Major)
+---
+
+## 🚀 Future Scope (Minor Project 2 & Major)
 
 Implement energy-saving recommendation system.
 
@@ -95,13 +101,18 @@ Deploy as a web dashboard using Streamlit or Flask.
 
 Incorporate real-time data monitoring and alerts.
 
-👥 Team Members
+---
+
+## 👥 Team Members
 Name	Role
-Aaryan Singh Panwar	Project Lead / Developer
-[Add Teammate Name]	Data Preprocessing / Analysis
-[Add Teammate Name]	Model Development
-[Add Teammate Name]	Documentation & Testing
-📚 References
+Aaryan Singh Panwar	    Project Lead / Developer
+Divyansh Purey	        Data Preprocessing / Analysis
+Khushal Karde           Model Development
+Darshan Joshi           Documentation & Testing
+
+---
+
+## 📚 References
 
 UCI Machine Learning Repository — Individual household electric power consumption dataset
 
@@ -109,7 +120,9 @@ Scikit-learn, Statsmodels, and XGBoost official documentation
 
 Research papers on time-series forecasting and anomaly detection
 
-🧾 License
+---
+
+## 🧾 License
 
 This project is developed as part of the Minor Project I coursework.
 Free to use for academic and learning purposes.
