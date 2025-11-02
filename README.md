@@ -37,24 +37,26 @@ It forms the foundation for an advanced energy optimization and recommendation s
 | **Version Control** | Git & GitHub |
 
 ---
-⚙️ Installation & Setup
-1. Clone the Repository
+## ⚙️ Installation & Setup
+### 1. Clone the Repository
 Bash
 
 git clone https://github.com/DEVILXAARYAN/AI_Energy_Consumption_Forecasting.git
 cd AI_Energy_Consumption_Forecasting
-2. Create Virtual Environment
+
+### 2. Create Virtual Environment
 Bash
 
 python -m venv venv
 venv\Scripts\activate   # On Windows
-# or
+### or
 source venv/bin/activate  # On macOS/Linux
-3. Install Dependencies
+
+### 3. Install Dependencies
 Bash
 
 pip install -r requirements.txt
-4. Open the Notebook
+### 4. Open the Notebook
 Bash
 
 jupyter notebook notebooks/Minor_Project1_AI_Energy_Forecasting_Anomaly.ipynb
